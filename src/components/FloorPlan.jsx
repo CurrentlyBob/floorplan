@@ -4,7 +4,7 @@ import Bedroom from "./Bedroom";
 import Bath from "./Bath";
 const FloorPlan = () => {
   return (
-    <div>
+    <div id="floor-plan">
       <Kitchen />
       <LivingRoom />
       <Bedroom bedNum={1} />
